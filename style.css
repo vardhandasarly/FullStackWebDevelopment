@@ -1,0 +1,42 @@
+/* CSS works on Selector and Declarations */
+/* Using Tags as selectors
+h1{
+    color: rgb(255, 165, 0);
+    background-color: rgb(172, 223, 219);  
+}
+*/
+/* Using the id of a tag to style it we do the following 
+
+#WelcomeMessage{
+    color: aliceblue;
+    background-color: antiquewhite;
+}
+*/
+/* Using the class of a tag as the selector, here the selector is .heading where "." represents 
+that every tag with name "heading" should be used
+
+.heading {
+    color: blue;
+}
+*/
+/* Here we are specifying the tag and the class of the tag which are supposed to be the selectors
+
+h1.heading {
+    color: blue;
+}
+*/
+
+/* Using the universal selector "*" that is used to apply the given declarations to all the tags in an HTML file"
+
+* {
+    color: purple;
+}
+*/
+
+/* Grouping selectors are the selectors where we group the tags with same declarations together, for example 
+
+h1, p {
+    color: green;
+}
+*/
+
